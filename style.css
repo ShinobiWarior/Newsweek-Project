@@ -61,11 +61,59 @@ a {
     ==============================================
 */
 
+/* Animation  */
+@keyframes rotation {
+  0% {
+    transform: rotate(0turn);
+  }
+
+  10% {
+    transform: rotate(0.1turn);
+  }
+
+  20% {
+    transform: rotate(0.2turn);
+  }
+
+  30% {
+    transform: rotate(0.3turn);
+  }
+
+  40% {
+    transform: rotate(0.4turn);
+  }
+
+  50% {
+    transform: rotate(0.5turn);
+  }
+
+  60% {
+    transform: rotate(0.6turn);
+  }
+
+  70% {
+    transform: rotate(0.7turn);
+  }
+
+  80% {
+    transform: rotate(0.8turn);
+  }
+
+  90% {
+    transform: rotate(0.9turn);
+  }
+
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
 /* Navigation */
 
 .top-nav .logo {
   width: auto;
   height: 1.5rem;
+  animation: rotation 0.9s ease-in 2s 3 alternate none;
 }
 
 header .fa-bars {
